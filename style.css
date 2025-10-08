@@ -1,12 +1,14 @@
 body {
-    font-family: "Share Tech", sans-serif;
+    font-family: "Space Mono", monospace;
     background-color: #e9e3d3;
     color: #524b39;
 }
+
 .portrait {
     width: 180px;
     padding: 20px;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -15,22 +17,35 @@ header {
     z-index: 1000;
     background-color: #e9e3d3
 }
+
 .top-row {
     display: flex;
     line-height: 0.5;
     align-items: center;
     justify-content: space-between;
 }
+
 .nametitle {
     text-align: center;
 }
+
+.contactinfo {
+    padding-right: 10px;
+}
+
+.contactinfo i {
+    margin-right: 8px;
+}
+
 .contactinfo a {
     text-decoration: none;
     color:#524b39;
 }
+
 .contactinfo a:hover {
     text-decoration: underline;
 }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -39,13 +54,16 @@ header {
     border-bottom: 1px solid #524b39;
     padding: 10px 0;
 }
+
 .nav a {
     text-decoration: none;
     color: #524b39;
 }
+
 .nav a:hover {
     text-decoration: underline;
 }
+
 main {
     margin-top: 280px
 }
