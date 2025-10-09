@@ -1,0 +1,30 @@
+body {
+    font-family: "Space Mono", monospace;
+    background-color: #282c33;
+    color: #fff;
+}
+header {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+    padding: 5px 20px;
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: #abb2bf;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav a.active {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #61dafb;
+}
+

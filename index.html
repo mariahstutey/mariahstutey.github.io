@@ -2,81 +2,40 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="/style.css">
   <title>Mariah Stutey | SWE</title>
+  <link rel="stylesheet" href="./resources/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-  <header>
-    <div class="top-row">
-      <img class="portrait" src="/portrait.jpeg"
-        alt="Portrait of Mariah Stutey in a green blazer, and white v-neck, smiling at the camera">
-
-      <div class="nametitle">
-        <h1>Mariah Stutey</h1>
-        <h3>Software Engineer</h3>
-      </div>
-
-      <div class="contactinfo">
-        <p><i class="fa-solid fa-phone"></i>360-710-7901</p>
-        <p><i class="fa-solid fa-envelope"></i>stuteymariah@gmail.com</p>
-        <p><i class="fa-solid fa-home"></i>Bellevue, WA</p>
-        <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/mariahstutey" target="_blank">LinkedIn</a></p>
-        <p><i class="fa-brands fa-github"></i><a href="https://github.com/mariahstutey" target="_blank">GitHub</a></p>
-      </div>
+  <header class="header">
+    <div class="logo">
+      <h3>Mariah Stutey</h3>
     </div>
 
     <nav class="nav">
-      <a href="#summary">Professional Summary</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#certs">Certifications</a>
+      <a href="./index.html">#home</a>
+      <a href="./works.html">#works</a>
+      <a href="./about.html">#about-me</a>
+      <a href="./contact.html">#contact</a>
     </nav>
   </header>
-
   <main>
-    <div class="summary" id="summary">
-      <h3>Professional Summary</h3>
-      <p>Innovative and detail-oriented professional with a Bachelor's degree in Cybersecurity and hands-on experience
-        in iOS development, full-stack software projects, and secure system design. Known for bridging the gap between
-        technology and real-world operations, with a strong foundation in programming, network defense, and application
-        security. Proven ability to deliver high-quality, user-focused solutions through analytical thinking,
-        problem-solving,
-        and cross-functional collaboration. Passionate about building secure, intuitive applications that enhance daily
-        life.
-      </p>
+
+    <div class="quote">
+      <p>The best way to predict the future is to create it. — Alan Kay</p>
+    </div>
     </div>
 
-    <div class="projects" id="projects">
-      <h3>Projects</h3>
-      <ul>
-        <li><strong>Personal Portfolio Website:</strong> Developed a responsive and visually appealing personal
-          portfolio
-          website using HTML, CSS, and JavaScript to showcase my projects, skills, and experience. Implemented smooth
-          navigation and optimized performance for better user experience.</li>
-      </ul>
     </div>
-
-      <div class="education" id="education">
-        <h3>Education</h3>
-        <p><strong>Bachelor of Science in Cybersecurity</strong>, American Military University, 2025</p>
-        <p id="openPopup" style="cursor:pointer; color:#524b39"><strong>Associate of Science in Computer Technology</strong>, American Military University, 2022</p>
-
-
-        <div id="imageModal" class="modal">
-          <span class="close">&times;</span>
-          <img src="associatesdegree.JPG" alt="Associate of Science in Computer Technology Degree from American Military University"
-            class="modal-content">
-        </div>
-      </div>
   </main>
 
-  <script src="script.js"></script>
+
+
+  <script src="script.js" defer></script>
 </body>
 
 </html>
