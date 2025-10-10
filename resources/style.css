@@ -48,8 +48,7 @@ main {
 
 .container {
     display: flex;
-    text-align: center;
-    padding: 80px 5px;;
+    padding: 80px 150px;
 }
 
 .intro button {
