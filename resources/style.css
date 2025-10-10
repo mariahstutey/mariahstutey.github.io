@@ -5,13 +5,27 @@ body {
 }
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #282c33;
 }
+
+header p {
+    margin: 0;
+    padding: 5px 30px;
+    font-weight: 800;
+}
+
 
 .nav {
     margin-left: auto;
-    padding: 5px 20px;
+    padding: 5px 30px;
     display: flex;
-    gap: 20px;
+    gap: 20px; 
 }
 .nav a {
     color: #abb2bf;
@@ -25,6 +39,35 @@ header {
 .nav a.active {
     color: #fff;
     font-weight: bold;
-    border-bottom: 2px solid #61dafb;
+    border-bottom: 2px solid #81d8d0;
 }
 
+main {
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    padding: 80px 5px;;
+}
+
+.intro button {
+    background-color:#282c33;
+    color:#81d8d0;
+    border: 1px solid #81d8d0;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.intro button:hover {
+    cursor: pointer;
+    background-color:#81d8d0;
+    color:#282c33;
+}
+
+
+.portrait img {
+    width: 200px;
+    height: 200px;
+}
