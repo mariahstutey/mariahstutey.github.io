@@ -46,7 +46,8 @@ header p {
 }
 
 .socials a {
-    color:#81d8d0
+    color:#81d8d0;
+    font-size: 20px;
 }
 
 .nav {
@@ -102,6 +103,7 @@ main {
 .quote-container {
     display: flex;
     justify-content: center;
+    margin: -40px;
 }
 
 .open-quote, .close-quote {
